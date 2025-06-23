@@ -13,7 +13,7 @@ class Widgetstore extends StatelessWidget {
     required this.title,
     required this.pathImage,
     required this.content,
-    required this.audio
+    required this.audio,
   });
 
   @override
@@ -28,7 +28,7 @@ class Widgetstore extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Read(title: title, content: content,audio: audio),
+                  builder: (context) => Read(title: title, content: content,audio: audio,pathImage: pathImage,),
                 ),
               );
             },
@@ -41,9 +41,9 @@ class Widgetstore extends StatelessWidget {
                 borderRadius: BorderRadius.circular(18),
                 child: Image.asset(
                   pathImage,
-                  width: double.infinity,
-                  fit: BoxFit.cover,
-                  height: MediaQuery.of(context).size.height / 3.8,
+                  width: MediaQuery.of(context).size.height / 1.5,
+                  fit: BoxFit.fill,
+                  height: MediaQuery.of(context).size.height / 3.2,
                 ),
               ),
             ),

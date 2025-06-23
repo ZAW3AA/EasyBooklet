@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
           elevation: 0,
           backgroundColor: const Color.fromARGB(255, 0, 16, 28),
           title: Text(
-            "قصص قصيرة",
+            "قصص قديسين",
             style: TextStyle(
               color: Colors.white,
               fontSize: 28,
