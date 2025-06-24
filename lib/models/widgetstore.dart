@@ -41,9 +41,9 @@ class Widgetstore extends StatelessWidget {
                 borderRadius: BorderRadius.circular(18),
                 child: Image.asset(
                   pathImage,
-                  width: MediaQuery.of(context).size.height / 1.5,
+                  width: MediaQuery.of(context).size.width / 1.2,
                   fit: BoxFit.fill,
-                  height: MediaQuery.of(context).size.height / 3.2,
+                  height: MediaQuery.of(context).size.height / 3.5,
                 ),
               ),
             ),

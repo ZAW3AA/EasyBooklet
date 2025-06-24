@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'package:easybooklet/models/story_audio_player.dart';
 import 'package:flutter/material.dart';
 
